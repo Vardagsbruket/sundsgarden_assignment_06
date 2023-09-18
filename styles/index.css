@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 #logo {
     display: inline-block;
@@ -70,7 +72,6 @@ section {
 }
 .main-title {
     color: #2F281E;
-    font-family: Poppins;
     font-size: 44px;
     font-style: normal;
     font-weight: 700;
@@ -80,7 +81,6 @@ section {
 }
 .main-info {
     color: #544837;
-    font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -95,11 +95,13 @@ section {
     flex-shrink: 0;
     margin-right: 129px;
 }
+a {
+    color: #F90;
+}
 /*second section*/
 h2 {
     color: #2F281E;
     text-align: center;
-    font-family: Poppins;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -108,6 +110,7 @@ h2 {
 }
 .text-center {
     width: 539px;
+    display: flex;
     text-align: center;
 
 }
@@ -117,4 +120,27 @@ h2 {
 .tests {
     width: 240px;
     gap: 5px    ;
+}
+.tests h3 {
+    color: #2F281E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.tests p {
+    color: #544837;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+#SignUpNow {
+    width: 175px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color: #F90;
+    color: white;
+    border: none;
 }
