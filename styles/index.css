@@ -95,3 +95,26 @@ section {
     flex-shrink: 0;
     margin-right: 129px;
 }
+/*second section*/
+h2 {
+    color: #2F281E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.text-center {
+    width: 539px;
+    text-align: center;
+
+}
+.container {
+    display: flex;
+}
+.tests {
+    width: 240px;
+    gap: 5px    ;
+}
