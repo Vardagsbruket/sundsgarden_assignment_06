@@ -58,9 +58,9 @@ header li {
     background: #F90;
 }
 /*body styling*/
-section {
-    display: inline-block;
-    margin-left: 145px;
+
+.container1 {
+    display: flex;
 }
 #GetStarted {
     width: 175px;
@@ -69,6 +69,8 @@ section {
     border-radius: 4px;
     background: #F90;
     margin: 30px;
+    border: none;
+    color: white;
 }
 .main-title {
     color: #2F281E;
@@ -94,6 +96,7 @@ section {
     height: 496px;
     flex-shrink: 0;
     margin-right: 129px;
+    float: right;
 }
 a {
     color: #F90;
@@ -110,16 +113,15 @@ h2 {
 }
 .text-center {
     width: 539px;
-    display: flex;
+    display: block;
     text-align: center;
-
 }
-.container {
-    display: flex;
+.container2 {
+    display: inline-flex;
+    gap: 5px;
 }
 .tests {
     width: 240px;
-    gap: 5px    ;
 }
 .tests h3 {
     color: #2F281E;
@@ -135,7 +137,7 @@ h2 {
     font-weight: 500;
     line-height: 26px; /* 162.5% */
 }
-#SignUpNow {
+.SignUpNow {
     width: 175px;
     height: 53px;
     flex-shrink: 0;
@@ -143,4 +145,6 @@ h2 {
     background-color: #F90;
     color: white;
     border: none;
+    display: block;
+    
 }
