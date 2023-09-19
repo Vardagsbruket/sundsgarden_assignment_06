@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-body > div {
+body > * {
     margin-left: 145px;
 }
 /*Logo and nav-bar */
@@ -56,6 +56,7 @@ header li {
 .container1 {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 #GetStarted {
     width: 175px;
@@ -99,7 +100,6 @@ a {
 /*second section*/
 h2 {
     color: #2F281E;
-    text-align: center;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -145,5 +145,34 @@ h2 {
     color: white;
     border: none;
     display: block;
-    
+    margin-top: 60px;
+}
+/*third section*/
+h4 {
+    color: #2F281E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+p {
+    color: #544837;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */ 
+}
+.Professionals {
+    max-width: 486px;
+
+}
+.column-img {
+    max-height: 520px;
+    flex-shrink: 0;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 349px;
+    gap: 135px;
 }
