@@ -61,6 +61,7 @@ header li {
 
 .container1 {
     display: flex;
+    flex-wrap: wrap;
 }
 #GetStarted {
     width: 175px;
@@ -111,14 +112,17 @@ h2 {
     line-height: normal;
 
 }
-.text-center {
-    width: 539px;
-    display: block;
-    text-align: center;
+.container-center {
+    display: flex;
+    justify-content: center;
 }
 .container2 {
     display: inline-flex;
     gap: 5px;
+    flex-wrap: wrap;
+}
+.superpower {
+    max-width: 539px;
 }
 .tests {
     width: 240px;
@@ -137,6 +141,7 @@ h2 {
     font-weight: 500;
     line-height: 26px; /* 162.5% */
 }
+
 .SignUpNow {
     width: 175px;
     height: 53px;
