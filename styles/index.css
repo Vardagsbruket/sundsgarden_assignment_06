@@ -85,6 +85,7 @@ header li {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    align-self: flex-start;
 }
 #GetStarted {
     width: 175px;
@@ -205,4 +206,12 @@ p {
     flex-wrap: wrap;
     margin-top: 349px;
     gap: 135px;
+    justify-content: center;
+}
+.bulletpoints {
+    display: flex;
+    width: 430px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
