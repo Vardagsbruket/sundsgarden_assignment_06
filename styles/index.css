@@ -9,13 +9,24 @@ body > * {
 .container-head {
     display: flex;
     flex-wrap: wrap;
+    height: 78px;
     align-items: center;
     justify-content: space-between;
     margin-left: 144px;
     margin-right: 145px;
+    margin-top: 20px;
+}
+#container-logo {
+    display: flex;
+    align-items: center;
+   
+    
 }
 #logo {
-    align-self: flex-start;
+    height: 32px;
+}
+#logo-text {
+    height: 29px;
 }
 .navContainer {
     display: flex;
@@ -37,6 +48,7 @@ body > * {
 }
 #nav2 {
     height: 46px;
+    align-items: center;
 }
 header li {
     list-style: none;
@@ -68,6 +80,11 @@ header li {
     align-items: center;
     margin-top: 59px;
     justify-content: center;
+}
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 #GetStarted {
     width: 175px;
